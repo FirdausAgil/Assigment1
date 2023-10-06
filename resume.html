@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Poppins:wght@300;400;500;600;700;800&family=Raleway:wght@300;400;500;600;700&family=Silkscreen&display=swap"
+    rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style type="text/tailwindcss">
+        @layer utilities {
+            h1 {
+    font-family: "poppins";
+    font-size: 40px;
+    font-weight: 500;
+}
+
+h2 {
+    font-family: "Poppins";
+    font-size: 32px;
+    font-weight: 500;
+}
+
+h3 {
+    font-family: "Poppins";
+    font-size: 24px;
+    font-weight: 600;
+}
+
+h4 {
+    font-family: "pacifico";
+    font-size: 24px;
+    font-weight: 400;
+}
+
+h5 {
+    font-family: "poppins";
+    font-size: 20px;
+    font-weight: 500;
+}
+
+p {
+    font-family: "raleway";
+    font-size: 14px;
+    font-weight: 400;
+}
+
+button {
+    font-family: "raleway";
+    font-size: 14px;
+    font-weight: 500;
+}}
+    </style>
+    <title>Document</title>
+</head>
+
+<body class="max-w-screen-xl m-auto bg-slate-100">
+
+    <!-- Logo -->
+    <logo class="flex p-4">
+        <h4 class="text-[#FF9C1A] animate-bounce">My<span class="text-[#EC1B09]">Portofolio</span></h4>
+    </logo>
+
+    <!-- Section -->
+    <div class="grid grid-cols-12">
+
+        <!-- Profile -->
+        <div class="col-span-12 lg:col-span-4">
+            <div class="m-4 content-center bg-white rounded-3xl pb-4">
+                <div class="pt-16">
+                    <img src="/src/agill.jpg" class="h-[200px] w-[200px]  flex m-auto rounded-2xl transform duration-300 hover:scale-150 ease-in">
+                </div>
+                <div class="pt-4">
+                    <h3 class="text-center p-1">Muhammad Gilang Firdaus</h3>
+                    <p class="text-center p-1">Front-end Web Developer</p>
+                </div>
+                <div class="flex place-content-center p-2">
+                    <a href="#"><i class="fab fa-facebook bg-slate-100 p-4 m-1 rounded-lg text-blue-800 hover:animate-bounce "></i></a>
+                    <a href="#"><i class="fab fa-linkedin bg-slate-100 p-4 m-1 rounded-lg text-blue-400 hover:animate-ping"></i></a>
+                    <a href="#"><i class="fab fa-instagram bg-slate-100 p-4 m-1 rounded-lg text-pink-500 hover:animate-spin"></i></a>
+                    <a href="#"><i class="fab fa-github bg-slate-100 p-4 m-1 rounded-lg hover:animate-pulse"></i></a>
+                </div>
+                <div class="w-[80%] m-auto bg bg-slate-100 rounded-3xl mb-16">
+                    <div class="grid grid-rows-2 grid-flow-col items-center m-auto p-3">
+                        <div class="row-span-3 ...">
+                            <a href="#"><i class="fa fa-mobile-android-alt text-[#ff9c1a] m-auto p-5"></i></a>
+                        </div>
+                        <div class="col-span-2 ...">
+                            <p>phone</p>
+                        </div>
+                        <div class="col-span-2 ...">
+                            <p>+62 8516-3629-819</p>
+                        </div>
+                    </div>
+                    <hr class="w-[70%] h-[1px] m-auto bg-slate-400 border-0 rounded">
+                    <div class="grid grid-rows-2 grid-flow-col items-center m-auto p-3">
+                        <div class="row-span-3 ...">
+                            <a href="#"><i class="fa-regular fa-envelope-open text-[#ff9c1a] m-auto p-5"></i></a>
+                        </div>
+                        <div class="col-span-2 ...">
+                            <p>Email</p>
+                        </div>
+                        <div class="col-span-2 ...">
+                            <p>tweeknd21@gmail.com</p>
+                        </div>
+                    </div>
+                    <hr class="w-[70%] h-[0.5px] m-auto bg-slate-400 border-0 rounded">
+                    <div class="grid grid-rows-2 grid-flow-col items-center m-auto p-3">
+                        <div class="row-span-3 ...">
+                            <a href="#"><i
+                                    class="fa fa-location-dot text-[#ec1b09] m-auto p-5"></i></a>
+                        </div>
+                        <div class="col-span-2 ...">
+                            <p>Location</p>
+                        </div>
+                        <div class="col-span-2 ...">
+                            <p>Tasikmalaya, Indonesia</p>
+                        </div>
+                    </div>
+                    <hr class="w-[70%] h-[0.5px] m-auto bg-slate-400 border-0 rounded">
+                    <div class="flex m-auto p-5">
+                        <button class="m-auto py-[.5rem] px-4 bg-[#ff9c1a] rounded-3xl text-white transition transform hover:scale-125 ease-in duration-300">
+                            <i class="fa fa-download mr-4"></i>Download Resume
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Nav-bar   -->
+        <div class="col-span-12 lg:col-span-8 ">
+            <div class="grid grid-cols-8 pt-16">
+                <div
+                    class="col-span-8 lg:col-span-4 lg:col-start-4 bg-white rounded-3xl shadow-xl m-4 lg:mt-0 lg:mb-0">
+                    <div class="flex p-4 m-auto border-slate-900 rounded-2xl">
+                        <a href="index.html"
+                            class="grid grid-rows-2 bg-slate-200 m-auto p-6 rounded-xl shadow transform hover:scale-125 hover:bg-slate-400 ease-in duration-300 focus:bg-[#ff9c1a] focus:text-white">
+                            <i class="row-span-1 fa fa-home m-auto"></i>
+                            <p class="row-span-2">Home</p>
+                        </a>
+                        <a href="resume.html"
+                            class="grid grid-rows-2  m-auto p-6 rounded-xl shadow transform hover:scale-125 hover:bg-slate-400 ease-out duration-300 bg-[#ff9c1a] text-white">
+                            <i class="row-span-1 fa fa-file-lines m-auto"></i>
+                            <p class="row-span-2">Resume</p>
+                        </a>
+                        <a href="contact.html"
+                            class="grid grid-rows-2 bg-slate-200 m-auto p-6 rounded-xl shadow transform hover:scale-125 hover:bg-slate-400 ease-in-out duration-300 focus:bg-[#ff9c1a] focus:text-white">
+                            <i class="row-span-1 fa fa-address-book m-auto"></i>
+                            <p class="row-span-2">Contact</p>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Home -->
+                <div class="col-span-8 lg:col-span-8 lg:col-start-1 bg-white m-4 lg:mr-0 rounded-3xl">
+                    <div class="col-span-2">
+                        <div class="m-8">
+                            <div class="grid grid-cols-3">
+                                <h1 class="text-center col-span-1 m-2">
+                                    Resume
+                                </h1>
+                                <hr class="col-start-2 col-span-1 w-[60%] h-[3px] m-auto bg-[#EC1B09] border-0 rounded-full>" >
+                            </div>
+                        </div>
+                    </div>
+                    <div class="" >
+                        <div class="grid grid-cols-2 m-8 mb-8">
+                            <div class="col-span-2 mx-4 lg:col-span-1">
+                                <h2>Education</h2>
+                                <div class="m-2 bg-[#FFE3BF] p-4 my-4 rounded-xl">
+                                    <p>2016-2022</p>
+                                    <h5>Teknik Informatika</h5>
+                                    <p>Universitas Perjuangan</p>
+                                </div>
+                                <div class="m-2 bg-[#FFEED9] p-4 my-4 rounded-xl">
+                                    <p>2023-present</p>
+                                    <h5>Fullstack Web Developer</h5>
+                                    <p>Harisenin.com</p>
+                                </div>
+                            </div>
+                            <div class="col-span-2 mx-4 lg:col-span-1">
+                                <h2>Experience</h2>
+                                <div class="m-2 bg-[#FFEED9] p-4 my-4 rounded-xl">
+                                    <p>2018-2019</p>
+                                    <h5>Web Designer</h5>
+                                    <p>Internship Siluman 1 Elementary School</p>
+                                </div>
+                                <div class="m-2 bg-[#FFE3BF] p-4 my-4 rounded-xl">
+                                    <p>2023-present</p>
+                                    <h5>Final Project</h5>
+                                    <p>Harisenin.com</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="bg-slate-50">
+                            <div class="grid grid-cols-2 m-2">
+                                <div class="col-span-2 lg:col-span-1 m-2">
+                                    <h2 class="m-4 p-4">Work Skills</h2>
+                                    <div class="grid grid-cols-3 m-10">
+                                        <p class="m-auto p-2 bg-slate-300 rounded-lg">HTML 5</p>
+                                        <p class="m-auto p-2 bg-slate-300 rounded-lg">CSS 3</p>
+                                        <p class="m-auto p-2 bg-slate-300 rounded-lg">JavaScript</p>
+                                        <p class="m-auto p-2 bg-slate-300 rounded-lg">Tailwind CSS</p>
+                                        <p class="m-auto p-2 bg-slate-300 rounded-lg">React.js</p>
+                                        <p class="m-auto p-2 bg-slate-300 rounded-lg">NEXT.js</p>
+                                        <p class="m-auto p-2 bg-slate-300 rounded-lg">Node.js</p>
+                                        <p class="m-auto p-2 bg-slate-300 rounded-lg">Figma</p>
+                                        <P class="m-auto p-2 bg-slate-300 rounded-lg">SQL</P>
+                                        <P class="m-auto p-2 bg-slate-300 rounded-lg">Mongo DB</P>
+                                        <P class="m-auto p-2 bg-slate-300 rounded-lg">Git</P>
+                                    </div>
+                                </div>
+                                <div class="col-span-2 lg:col-span-1">
+                                    <h2 class="m-4 p-4">Soft Skills</h2>
+                                    <div class="grid grid-cols-2 m-10">
+                                        <p class="m-auto p-2 bg-slate-300 rounded-lg">Writing</p>
+                                        <p class="m-auto p-2 bg-slate-300 rounded-lg">Research</p>
+                                        <p class="m-auto p-2 bg-slate-300 rounded-lg">Mentorship</p>
+                                        <p class="m-auto p-2 bg-slate-300 rounded-lg">Flexibility</p>
+                                        <p class="m-auto p-2 bg-slate-300 rounded-lg">Ai Copy Writing</p>
+                                        <p class="m-auto p-2 bg-slate-300 rounded-lg">Time Management</p>
+                                        <p class="m-auto p-2 bg-slate-300 rounded-lg">Communication</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>
